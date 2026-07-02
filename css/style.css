@@ -15,16 +15,16 @@
         }
 
         .container {
-            background: #fff;
+            background: #7ac8ec;
             width: 500px;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            box-shadow: 0 0 15px rgba(106, 143, 38, 0.2);
         }
 
         h2 {
             text-align: center;
-            color: #333;
+            color: #da5050;
             margin-bottom: 20px;
         }
 
@@ -69,9 +69,9 @@
 
         button {
             width: 100%;
-            padding: 12px;
+            padding: 12px;s
             background: #007BFF;
-            color: white;
+            color: rgb(217, 87, 243);
             border: none;
             border-radius: 5px;
             font-size: 16px;
