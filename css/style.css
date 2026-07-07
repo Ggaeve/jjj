@@ -13,7 +13,7 @@
         }
 
         #bomboclat{
-            color:green;
+            color:rgb(250, 98, 250);
             text-align: center;
             text-decoration:underline;
             text-shadow: 0rcap;
@@ -24,6 +24,15 @@ font-family: serif;
 font-size: 30px;
 font-weight: lighter;
 font-style: italic;
-background-color: #DDFEE9;
-
+background-color: hsla(69, 83%, 62%, 0.021);
         }
+        #pangjie{
+            color: sienna;
+        }
+        
+   #hehe{
+    text-align:center;
+   }
+   img{
+    opacity: 0.5;
+   }
