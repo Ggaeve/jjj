@@ -32,8 +32,10 @@
 
 <!-- <button onclick="addScore()">result</button> -->
 
-<button id="hiButton">Say Hi</button>
-<p id="output"></p>
+<!-- <button id="hiButton">Say Hi</button>
+<p id="output"></p> -->
+
+ <button id="myButton">Button</button> 
 
     <script>
 
@@ -126,17 +128,22 @@
 // printHello();
 // printHello(); -->
  
-let button = document.getElementById("hiButton");
-let output = document.getElementById("output");
-button.addEventListener("click", function(){
-output.textContent = "Hi"
-})
+// let button = document.getElementById("hiButton");
+// let output = document.getElementById("output");
+// button.addEventListener("click", function(){
+// output.textContent = "Hi"
+// })
 
-button.addEventListener("mouseover", function(){
-    button.textContent = ":)"
-    output.textContent = "..."
-})
+// button.addEventListener("mouseover", function(){
+//     button.textContent = ":)"
+//     output.textContent = "..."
+// })
 
+
+let button = document.getElementById("myButton")
+button.addEventListener("click", function(event){
+    console.log(event.target);
+})
 
 
     </script>
