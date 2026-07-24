@@ -7,25 +7,36 @@
 </head>
 <body>
 
-     <!-- <h1 class="text" onmouseover="detectMouse()">Hello</h1>  -->
-        <!-- <h1 class="text" onmouseout="detectMouse()">Hello</h1>  -->
-         <!-- <input type="text" onkeydown="detectKey()"> -->
-           <input type="text" oninput="displayText(this.value)">
-           <p id="output"></p>
+    <!-- 1 <h1 class="text" onmouseover="detectMouse()">Hello</h1>  -->
+        <!-- 2 <h1 class="text" onmouseout="detectMouse()">Hello</h1>  -->
+         <!-- 3 <input type="text" onkeydown="detectKey()"> -->
+           <!-- 4 <input type="text" oninput="displayText(this.value)">
+           <p id="output"></p> -->
 
     <!-- <button ondblclick="printHello()">Button</button> -->
 
 <!-- <button onclick="addScore()">result</button> -->
+
+<select onchange="showSelection(this.value)">
+    <option>HTML</option>
+    <option>CSS</option>
+    <option>JAVASCRIPT</option>
+</select>
+<p id="output"></p>
     <script>
-    //  function detectKey(){
+        function showSelection(value){
+            document.getElementById("output").textContent = value;
+        }
+
+  1  //  function detectKey(){
     //     alert("Puyfai")
     //  }
 
-    // function detectKey(){
+  2  // function detectKey(){
     //     alert("Ploy");
     //  }
 
-    //   function detectKey(){
+  3  //   function detectKey(){
     //     console.log("Ploy");
     //  }
 
@@ -33,13 +44,13 @@
         //     alert("Hello Puyfai");
         // } 
 
-        function displayText(value){
-            document.getElementById("output").textContent = value
-        }
+       4 // function displayText(value){
+        //     document.getElementById("output").textContent = value
+        // }
 
         
 
-        
+
         // let answer = (10 <= 8);
         // document.write(answer);
 
@@ -77,6 +88,8 @@
 // }
 // printHello();
 // printHello(); -->
+ 
+
 
 
 
