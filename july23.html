@@ -7,16 +7,39 @@
 </head>
 <body>
 
-    <h1 onmouseover="detectMouse()">Hello</h1>
+     <!-- <h1 class="text" onmouseover="detectMouse()">Hello</h1>  -->
+        <!-- <h1 class="text" onmouseout="detectMouse()">Hello</h1>  -->
+         <!-- <input type="text" onkeydown="detectKey()"> -->
+           <input type="text" oninput="displayText(this.value)">
+           <p id="output"></p>
+
     <!-- <button ondblclick="printHello()">Button</button> -->
+
 <!-- <button onclick="addScore()">result</button> -->
     <script>
-        function detectMouse(){
-            alert("Ploy!");
-        }
+    //  function detectKey(){
+    //     alert("Puyfai")
+    //  }
+
+    // function detectKey(){
+    //     alert("Ploy");
+    //  }
+
+    //   function detectKey(){
+    //     console.log("Ploy");
+    //  }
+
         // function printHello(){
         //     alert("Hello Puyfai");
         // } 
+
+        function displayText(value){
+            document.getElementById("output").textContent = value
+        }
+
+        
+
+        
         // let answer = (10 <= 8);
         // document.write(answer);
 
