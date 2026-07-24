@@ -8,7 +8,7 @@
 <!-- <body onload="alert('Puyfai')"> -->
 <body>
 
- <button id="myButton">Button</button>  
+ <!-- <button id="myButton">Button</button>   -->
 
  <!-- <form onsubmit="submitForm()">
     <input type="text">
@@ -32,6 +32,8 @@
 
 <!-- <button onclick="addScore()">result</button> -->
 
+<button id="hiButton">Button</button>
+<p id="output"></p>
     <script>
 
 // let button = document.getElementById("myButton");
@@ -123,11 +125,19 @@
 // printHello();
 // printHello(); -->
  
+let button = document.getElementById("hiButton");
+let output = document.getElementById("output");
+button.addEventListener("click", function(){
+output.textContent = "Hi"
+})
 
-
+button.addEventListener("mouseover", function(){
+    button.textContent = ":)"
+    output.textContent = "..."
+})
 
 
 
     </script>
-</bodocuy>
+</body>
 </html>
