@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <input type="password" id="passsword">
-    <button id="loginbtn">Log in</button>
+    <input type="password" id="password">
+    <button id="loginBtn">Log in</button>
     <script>
-let password = document.getElementById("password")
-let loginbtn = document.getElementById("loginbtn")
-let defaultPassword = "admin_123"
+        let password = document.getElementById("password");
+        let loginBtn = document.getElementById("loginBtn");
+        let defaultPassword = "admin_123"
 
-loginbtn.addEventListener("click", function(){
-if (password.value == defaultPassword){
-document.write=("Welcome")
-
-}
-})        
+        loginBtn.addEventListener("click", function () {
+            if (password.value == defaultPassword) {
+                document.write("Welcome")
+            }
+        })        
     </script>
 
 
 </body>
+
 </html>
