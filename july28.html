@@ -30,6 +30,18 @@
         // })         -->
 
 
+        let grade = document.getElementById("grade");
+        let submitBtn = document.getElementById("submitBtn");
+        let result = document.getElementById("result")
+        submitBtn.addEventListener("click", function(){
+            if(grade.value >=75){
+                result.textContent = "passed";
+            }
+           if(grade.value <=75){
+                result.textContent = "failed";
+            }
+        })
+
     </script>
 
 
