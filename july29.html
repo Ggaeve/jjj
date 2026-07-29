@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 <body>
-    <script>
-console.log("Shades");
-console.log("Shades");
-console.log("Shades");
-console.log("Shades");
-console.log("Shades");
-console.log("Shades");
-console.log("Shades");
-console.log("Shades");
+<input type="text" id="usernameInput">
+<button id="submitBtn">Log in</button>
+<p id="error"></p>
 
-for(let number = 0; number<=5; number++){
-console.log(number)
+
+    <script>
+let submit = document.getElementById("submitBtn")
+let input = document.getElementById("usernameInput")
+let error = document.getElementById("error")
+let defaultPassword = "admin+_123"
+
+submit.addEventListener("click", function(){
+while(input.value !== defaultPassword){
+
 }
+
+})
+
+// console.log("Shades");
+// console.log("Shades");
+// console.log("Shades");
+// console.log("Shades");
+// console.log("Shades");
+// console.log("Shades");
+// console.log("Shades");
+// console.log("Shades");
+
+// for(let number = 0; number<=5; number++){
+// console.log(number)
+// }
     </script>
 
 
